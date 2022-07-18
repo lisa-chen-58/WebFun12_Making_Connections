@@ -1,0 +1,197 @@
+/* ------------- TAG SPECIFIC ----------------- */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1000px;
+}
+h1{
+    vertical-align: center;
+    margin:10px 0px;
+}
+/* ------------- FLEX ----------------- */
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-space-around{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* ------------- COLOR ONLY ----------------- */
+.bg-grey{
+    background-color: #333333;
+    color:#F5F5F5;
+}
+.text-lt-grey{
+    color:#c8c8c8;
+}
+.text-dk-grey{
+    color:#979696;
+}
+.text-highlight{
+    color: #F5F5F5;
+}
+.blk-border{
+    border: 2px solid black;
+}
+
+/* REMOVE TEST BORDERS ONCE PROFILE COMPLETE */
+.test{
+    border: 5px solid red;
+}
+
+
+/* ------------- HEADER ----------------- */
+
+#header-background{
+    background-color: black;
+    color: white;
+    padding: 10px 110px;
+}
+
+#header-links > *{
+    margin-left:20px;
+    vertical-align: center;
+    color: white;
+}
+#sign-out{
+    background-color: #17A2B8;
+    padding: 3px 10px;
+}
+
+
+/* ------------- NON-COLUMN SPECIFIC ----------------- */
+
+#page{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;    
+    margin-top: 2%;
+}
+.section-hd-links{
+    color:white;
+}
+.section-num-links{
+    border-radius: 50%;
+    border-style: 5px solid white;
+    color: black;
+    padding: 0.1px 7px;
+    margin: 7px;
+}
+
+/* ------------- COLUMN SPECIFIC ----------------- */
+
+#column1{
+    width: 40%;
+    margin-right: 5px;
+}
+
+.column1-section{
+    padding-left:30px;
+}
+
+#column2{
+    width: 21%;
+    margin-left: 5px;
+}
+
+/* ------------- NON-SECTION SPECIFIC ----------------- */
+
+.section{
+    border-top: 3px solid #333333;
+    border-right: 3px solid lightgrey;
+    border-left: 3px solid lightgrey;
+    border-bottom: 3px solid lightgrey;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.contact-row{
+    padding: 7px 5px;
+}
+.contact-image{
+    width: 30px;
+    margin: 2px;
+    border-radius: 50%;
+}
+.contact-text{
+    margin: 0px 0px 0px 5px;
+    vertical-align: center;
+}
+.section-links{
+    text-decoration: underline;
+}
+
+
+/* ------------- PROFILE NAME ----------------- */
+#profile-wrapper{
+    position: relative;
+}
+#bg-profile{
+    background-color: #17a1b7;
+    padding: 10% 5%;
+    padding-bottom: 10%;
+}
+#profile-image{
+    position:absolute;
+    width: 25%;
+    border: 3px solid black;
+    border-radius: 50%;
+    top: 30px;
+    left: 30px;
+}
+#profile-section{
+    border-right: 3px solid lightgrey;
+    border-left: 3px solid lightgrey;
+    border-bottom: 3px solid lightgrey;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+#map-icon{
+    width: 10px;
+    margin-right: 8px;
+}
+#gear-icon{
+    width: 10px;
+    margin-left: 30px;
+}
+
+/* ------------- EDUCATION ----------------- */
+
+#education-hd{
+    padding: 2% 5%;
+    margin-bottom: 0px;
+}
+
+/* ------------- YOUR CONNECTIONS ----------------- */
+
+#view-more{
+    border-right: 3px solid lightgrey;
+    border-left: 3px solid lightgrey;
+    border-bottom: 3px solid lightgrey;
+    margin: 10px 0px 25px 0px;
+    padding: 27px 60.5% 27px 5%;
+}

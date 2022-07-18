@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ---------------------BOOTSTRAP --------------------- -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- ---------------------JAVASCRIPT --------------------- -->
+    <script src="script.js"></script>
+
+    <!-- --------------------- CSS --------------------- -->
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header-background" class="flex-space-around">
+        <div class="flex-center">
+            <h1>Profile</h1>
+            <div id="header-links">
+                <a class="text-lt-grey" href="#">Home</a>
+                <a href="#">My Profile</a>
+                <a class="text-lt-grey" href="#">Find connections</a>    
+            </div>
+        </div>
+        <button id="sign-out">Sign Out</button>
+    </div>
+    <div id="page">
+
+        <div id="column1">
+        
+
+            <!-- ----------------- PROFILE SECTION ----------------- -->
+
+            <div id="profile-wrapper">
+                <div id="bg-profile"></div>
+                <img id="profile-image" src="./img/jane-m.jpg" alt="Jane M">
+                <div id="profile-section">
+                    <h2 class="column1-section">Jane Doe</h2>
+                    <div class="flex-start column1-section">
+                        <img id="map-icon" src=".//img/map-marker.png">
+                        <h5>Seattle</h5>
+                    </div>
+                    <h5 class="column1-section">
+                        Developer | Engineer | Problem Solver
+                        <br>
+                        Master of shadows and the Internet!
+                    </h5>
+                    <a class="section-links">
+                        <img id="gear-icon" src=".//img/gear.png" alt="Gear">
+                        edit profile
+                    </a>
+
+                </div>
+            </div>
+
+            <!-- ----------------- EDUCATION ----------------- -->
+
+            <p class="bg-grey" id="education-hd">Education</p>                
+            <div class="section column1-section">
+                <h4>Coding Dojo - Full Stack Bootcamp</h4>
+                <h5 class="text-dk-grey">Dec 2019 - Mar 2020</h5>
+                <h5>Triple black belt in Python, MERN, and C#...</h5>
+            </div>
+
+
+        </div>
+
+        <div id="column2">
+
+            <!-- ----------------- CONNECTION REQUESTS ----------------- -->
+            <div>
+                <div class="bg-grey">
+                    <button class="section-num-links" href="#">2</button>
+                    <a class="section-hd-links" href="#">Connection Requests</a>                
+                </div>
+                <div class="section">
+                    <div class="contact-row flex-space-between">
+                        <div class="flex-start">
+                            <img class="blk-border contact-image" src="./img/todd-s.jpg" alt="Todd S">
+                            <p class="contact-text">Todd E</p>
+                        </div>
+                        <div class="flex-end delete-1">
+                            <img class="contact-image" src="./img/accept-circle.png" alt="accept">
+                            <a id="remove(0)">
+                                <img class="contact-image" src="./img/close-circle.png" alt="close">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-row flex-space-between">
+                        <div class="flex-start">
+                            <img class="blk-border contact-image" src="./img/phil-s.jpg" alt="Phil K">
+                            <p class="contact-text">Phil K</p>
+                        </div>
+                        <div class="flex-end">
+                            <img class="contact-image" src="./img/accept-circle.png" alt="accept">
+                            <img class="contact-image" src="./img/close-circle.png" alt="close">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- ----------------- YOUR CONNECTIONS ----------------- -->
+
+            <div class="bg-grey">
+                <button class="section-num-links" href="#">500+</button>
+                <a class="section-hd-links" href="#">Your Connections</a> 
+            </div>
+            <div class="section">
+                <div class="contact-row flex-start">
+                    <img class="blk-border contact-image" src="./img/adrien-s.jpg" alt="Adrien D">
+                    <p class="contact-text">Adrien D</p>
+                </div>
+                <div class="contact-row flex-start">
+                    <img class="blk-border contact-image" src="./img/anne-s.jpg" alt="Anne J">
+                    <p class="contact-text">Anne J</p>
+                </div>
+                <div class="contact-row flex-start">
+                    <img class="blk-border contact-image" src="./img/alayne-s.jpg" alt="Alayne T">
+                    <p class="contact-text">Alayne T</p>
+                </div>
+                <div class="contact-row flex-start">
+                    <img class="blk-border contact-image" src="./img/arry-s.jpg" alt="Arry Y">
+                    <p class="contact-text">Arry Y</p>
+                </div>
+            </div>
+            <a id="view-more" href="#">View More</a>
+            
+        </div>
+    </div>
+    <!-- ---------------------JAVASCRIPT --------------------- -->
+    <script src="script.js"></script>
+</body>
+</html>
